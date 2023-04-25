@@ -12,7 +12,7 @@ const About = () => {
             I'm Rafael a frontend developer based in Chicago. I have a passion for creating beautiful, responsive, and user-friendly web applications using the latest frontend technologies.
           </p>
           <p>
-            I have a background in marketing and advertising and recently decided to purse a career in software development.
+            I have a background in marketing and advertising and recently decided to purse a career in web development.
             As someone who has always had an eye for design and a love for solving problems, I find that frontend development allows me to combine these two in harmony.
           </p>
           <p>
