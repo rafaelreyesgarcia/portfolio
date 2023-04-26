@@ -1,7 +1,19 @@
 import React from 'react'
 import { headerLinks } from '../constants'
+import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
+
+  const headerHeight = 60;
+  function handleClick(sectionId) {
+    const section = document.getElementById(sectionId);
+    const offsetTop = section.offsetTop;
+    window.scrollTo({
+      top: offsetTop - headerHeight,
+      behavior: 'smooth',
+    });
+  }
+
   return (
     <div
       className='
@@ -11,11 +23,16 @@ const Header = () => {
         px-6 h-[60px] fixed w-full
       '
     >
-      <ul className='flex gap-4 uppercase'>
+      <ul className='flex uppercase'>
         {headerLinks.map(link => (
-          <a href={`#${link}`}>
+          <HashLink
+            key={link}
+            to={`#${link}`}
+            scroll={() => handleClick(link)}
+            className='hover:bg-dark hover:rounded-md px-4'
+          >
             <li>{link}</li>
-          </a>
+          </HashLink>
         ))}
       </ul>
       <div>

@@ -70,5 +70,7 @@ export const projects = [
     name: "GetPet",
     description: "Designed and developed a pet services website.",
     technologies: ["React", "Tailwind", "react-router-dom", "Vite"],
+    demoUrl: 'demo',
+    sourceUrl: 'source',
   },
 ];
