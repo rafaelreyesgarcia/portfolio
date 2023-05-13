@@ -3,74 +3,101 @@ export const headerLinks = ["about", "skills", "projects", "contact"];
 export const skills = [
   {
     name: "HTML",
-    img: "./src/assets/html.png",
+    img: "./html.png",
   },
   {
     name: "CSS",
-    img: "./src/assets/css.png",
+    img: "./css.png",
   },
   {
     name: "JS",
-    img: "./src/assets/js.png",
+    img: "./js.png",
   },
   {
     name: "react",
-    img: "./src/assets/react.png",
+    img: "./react.png",
   },
   {
     name: "tailwind",
-    img: "./src/assets/tailwind.png",
+    img: "./tailwind.png",
   },
   {
     name: "mongoDB",
-    img: "./src/assets/mongo.svg",
+    img: "./mongo.svg",
   },
   {
     name: "node.js",
-    img: "./src/assets/nodejs.png",
+    img: "./nodejs.png",
   },
   {
     name: "photoshop",
-    img: "./src/assets/photoshop.jfif",
+    img: "./photoshop.jfif",
   },
   {
     name: "figma",
-    img: "./src/assets/figma.png",
+    img: "./figma.png",
   },
   {
     name: "illustrator",
-    img: "./src/assets/illustrator.png",
+    img: "./illustrator.png",
   },
   {
     name: "git",
-    img: "./src/assets/git.png",
+    img: "./git.png",
   },
   {
     name: "hardhat",
-    img: "./src/assets/hardhat.png",
+    img: "./hardhat.png",
   },
   {
     name: "solidity",
-    img: "./src/assets/solidity.png",
+    img: "./solidity.png",
   },
   {
     name: "alchemy",
-    img: "./src/assets/alchemy.jfif",
+    img: "./alchemy.jfif",
   },
   {
     name: "next.js",
-    img: "./src/assets/next.png",
+    img: "./next.png",
   },
 ];
 
 export const projects = [
   {
-    img: "",
+    img: "./get-pet.png",
     title: "pet services website",
     name: "GetPet",
     description: "Designed and developed a pet services website.",
-    technologies: ["React", "Tailwind", "react-router-dom", "Vite"],
-    demoUrl: 'demo',
-    sourceUrl: 'source',
+    technologies: ["React", "Tailwind", "react-router-dom", "Google Maps API", "Figma"],
+    demoUrl: 'https://getpet-peach.vercel.app/',
+    sourceUrl: 'https://github.com/rafaelreyesgarcia/getpet',
+  },
+  {
+    img: "./responsive-site.png",
+    title: "Responsive landing page",
+    name: "HooBank",
+    description: "Turned a Figma design into a responsive landing page",
+    technologies: ["React", "Tailwind", "figma"],
+    demoUrl: 'https://hoobank-six-sable.vercel.app/',
+    sourceUrl: 'https://github.com/rafaelreyesgarcia/responsive-site',
+  },
+  {
+    img: "./cryptocurrency-tracker.png",
+    title: "Cryptocurrency tracker",
+    name: "Cryptocurrency Tracker",
+    description: "Created a simple cryptocurrency price tracker using CoinGecko api endpoints",
+    technologies: ["React", "Material UI", "axios", "react-alice-carousel", "react-router-dom"],
+    demoUrl: 'https://cryptocurrency-tracker-two.vercel.app/',
+    sourceUrl: 'https://github.com/rafaelreyesgarcia/cryptocurrency-tracker',
+  },
+  {
+    img: "./portfolio.png",
+    title: "personal portfolio",
+    name: "Personal Portfolio Website",
+    description: "Simple portfolio website to showcase projects and skills",
+    technologies: ["React", "tailwind", "react-router-dom"],
+    demoUrl: 'https://cryptocurrency-tracker-two.vercel.app/',
+    sourceUrl: 'https://github.com/rafaelreyesgarcia/portfolio',
   },
 ];

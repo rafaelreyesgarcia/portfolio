@@ -39,7 +39,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='bg-skeleton w-full h-[20rem] md:w-[40%]'>
-            <img src={project.img} alt="" />
+            <img src={project.img} alt="" className='object-fit h-full'/>
           </div>
         </div>
       ))}
