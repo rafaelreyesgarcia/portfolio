@@ -12,7 +12,8 @@ const Projects = () => {
       {/* Project */}
       {projects.map(project => (
         <div key={project.name} className='flex flex-col px-16 gap-8 md:gap-0 items-center md:justify-between md:flex-row py-16'>
-          <div className='text-primary font-body text-2xl flex flex-col justify-around space-y-8'>
+
+          <div className='text-primary font-body text-2xl flex flex-col justify-around space-y-8 md:w-[50%]'>
             <p className='font-bold uppercase'>
               {project.title}
             </p>
@@ -38,8 +39,9 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className='bg-skeleton w-full h-[20rem] md:w-[40%]'>
-            <img src={project.img} alt="" className='object-fit h-full'/>
+
+          <div className='bg-skeleton w-full h-[20rem] md:w-[45%]'>
+            <img src={project.img} alt="" className='object-fit w-full h-full'/>
           </div>
         </div>
       ))}

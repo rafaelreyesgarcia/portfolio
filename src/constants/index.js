@@ -100,4 +100,13 @@ export const projects = [
     demoUrl: 'https://cryptocurrency-tracker-two.vercel.app/',
     sourceUrl: 'https://github.com/rafaelreyesgarcia/portfolio',
   },
+  {
+    img: "./promptopia.png",
+    title: "Prompt Sharing Project",
+    name: "Promptopia",
+    description: "Learned how to create Next.js 13 api routes to store user data in a MongoDB database as well as implementing google authentication using NextAuth",
+    technologies: ["React", "tailwind", "Next.js", "NextAuth", "OAuth 2.0", "MongoDB"],
+    demoUrl: 'https://prompt-sharing.vercel.app/',
+    sourceUrl: 'https://github.com/rafaelreyesgarcia/prompt-sharing',
+  },
 ];
