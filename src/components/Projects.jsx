@@ -1,9 +1,9 @@
-import React from 'react'
-import { MdArrowRight } from "react-icons/md";
 import { projects } from '../constants';
+import { MdArrowRight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
+
   return (
     <section className=' bg-light flex flex-col justify-around' id='projects'>
       <h2 className='font-heading font-bold text-primary text-5xl text-center pt-8'>
@@ -13,7 +13,8 @@ const Projects = () => {
       {projects.map(project => (
         <div key={project.name} className='flex flex-col px-16 gap-8 md:gap-0 items-center md:justify-between md:flex-row py-16'>
 
-          <div className='text-primary font-body text-2xl flex flex-col justify-around space-y-8 md:w-[50%]'>
+          {/* info */}
+          <div className={`text-primary font-body text-2xl flex flex-col justify-around space-y-8 md:w-[50%]`}>
             <p className='font-bold uppercase'>
               {project.title}
             </p>

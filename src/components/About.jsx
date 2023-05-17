@@ -7,8 +7,8 @@ const About = () => {
         about me
       </h2>
       <div className='flex gap-8 justify-around items-center p-12 flex-col md:flex-row'>
-        <div className='bg-skeleton w-80 h-80 rounded-full'>
-        </div>
+        <img src="./profile.jpg" alt="profile" className='object-cover rounded-full w-80 h-80'  />
+
         <div className='text-dark md:w-[60%] space-y-8 text-xl'>
           <p>
             I'm Rafael a frontend developer based in Chicago. I have a passion for creating beautiful, responsive, and user-friendly web applications using the latest frontend technologies.
@@ -21,7 +21,7 @@ const About = () => {
             I am committed to becoming proficient in all aspects of fullstack development. Ultimately, my aim is to become a versatile developer who can deliver quality solutions for both frontend and backend development.
           </p>
         </div>
-        
+
       </div>
     </section>
   )
