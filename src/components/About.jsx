@@ -15,10 +15,10 @@ const About = () => {
           </p>
           <p>
             I have a background in marketing and advertising and recently decided to purse a career in web development.
-            As someone who has always had an eye for design and a love for solving problems, I find that frontend development allows me to combine these two in harmony.
+            As someone who have always had an eye for design and a love for solving problems, I find that frontend development allows me to combine these two concepts in harmony.
           </p>
           <p>
-            I am committed to becoming proficient in all aspects of fullstack development. Ultimately, my aim is to become a versatile developer who can deliver quality solutions for both frontend and backend development.
+            I am committed to become proficient in all aspects of fullstack development. Ultimately, my aim is to become a versatile developer who can deliver quality solutions for both frontend and backend development.
           </p>
         </div>
 
